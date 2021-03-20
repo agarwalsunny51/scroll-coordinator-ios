@@ -1,0 +1,6 @@
+framework module ScrollCoordinator {
+  umbrella header "ScrollCoordinator-umbrella.h"
+
+  export *
+  module * { export * }
+}

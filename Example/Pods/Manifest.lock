@@ -1,0 +1,16 @@
+PODS:
+  - ScrollCoordinator (1.2.0)
+
+DEPENDENCIES:
+  - ScrollCoordinator (from `../`)
+
+EXTERNAL SOURCES:
+  ScrollCoordinator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScrollCoordinator: 01cd1355cf1eae242641e51a19ec15a401b65df6
+
+PODFILE CHECKSUM: e2c3bc33e249c09b205e06f304e928731eef74d1
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C94AF057BCCCD6C1B14033AD2273ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0A45D23380345FCD155AF4739106DA79 /* ScrollCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EBB1CE82F4FF9642E636F4CF9E4671 /* ScrollCoordinator-dummy.m */; };
+		0BAA68E8FA65ED93C7BBACE3794444D2 /* NavbarSnapBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D438923ABE048A867058DCD2C888A /* NavbarSnapBehaviour.swift */; };
+		14DACA9C7B90C87894D76EB1B9FF5C00 /* ScrollCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F51D1B63880E6D2FEDA3205FD6665813 /* ScrollCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2357002D40CD7CA13D728678FF053F42 /* PanGestureHandlerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E1BA67ECD7C48B03E49C3E03F670E /* PanGestureHandlerDelegate.swift */; };
+		302D0FE06587F8FC127828DF609CCB96 /* Pods-ScrollCoordinator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1F20027E6A267619C263815287E539 /* Pods-ScrollCoordinator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55D833587D0B70A653DB4699C0A49972 /* ScrollCoordinatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809349F49A9D932A85FF1721A5A4AF52 /* ScrollCoordinatorManager.swift */; };
+		624AA7B79C969CE43451DC2837F04B99 /* AnchorBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591AA5622694491CC6304A68283F285B /* AnchorBehaviour.swift */; };
+		6E4458D4DB536F0863F9EFE8C38E9BA9 /* SnapBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E6C3B07C4641B88198B0A1545707FD /* SnapBehaviour.swift */; };
+		8E64D4E5CD09BD5C40D4F3ECCD7AE713 /* PanGestureInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29E644A56754DA578A0787867A0BC2F /* PanGestureInformation.swift */; };
+		A8FA75A77417879B5FFD061E5C22CEA7 /* ScrollCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725C422B69005B971DD58440C90D05C /* ScrollCoordinator.swift */; };
+		B4CE0F9539B3F516F8B4E537E467E528 /* Pods-ScrollCoordinator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B876280C4882997DC07DD4B3C00EFE /* Pods-ScrollCoordinator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6A5FD54CB06B496140299D84D658F4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DA670A2FB37331B5607B5C4AF441CDCE /* ScrollCoordinatorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB04F98460FB38B7C0FFA2549A9589 /* ScrollCoordinatorUtils.swift */; };
+		E6233D900DB4EAC86E5A8E33E1E333B2 /* Pods-ScrollCoordinator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D3E584FB81D8A5622D1A6B1F95E30 /* Pods-ScrollCoordinator_Tests-dummy.m */; };
+		EF8426FA0AF7D7EE2EEB04CDCE518B60 /* Pods-ScrollCoordinator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 426862557EC88BDE337DFE44FCEF12F7 /* Pods-ScrollCoordinator_Example-dummy.m */; };
+		F46057D53CE6636CBD8DA34B44D46D71 /* ScrollTranslationInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695F381322A7F91BE3DF3DD05277AE6 /* ScrollTranslationInformation.swift */; };
+		F6C06EA77CCA2F97A8AFB9BD44704282 /* PanGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3A8C5FA0E32494881C850D6813C94 /* PanGestureHandler.swift */; };
+		F76587EBD1BA6D0205D0F93EF8644BB1 /* Behaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF2A0CBCCCF5404185905EC8FFDC5C /* Behaviour.swift */; };
+		F838B1ABC72CEBE18CAEB499B7B16A02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ACB93846C5B27B239C74A9AD9C83A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5730EB75C915398A0ED5451B8C3FE5FB;
+			remoteInfo = "Pods-ScrollCoordinator_Example";
+		};
+		DF20D5080EE7197E1D9D5A14CE42EE52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7422E8150FF32C7649D2235F10E794E6;
+			remoteInfo = ScrollCoordinator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CE346EE27BE5DCE5B8580AF1FC8EE6 /* Pods-ScrollCoordinator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollCoordinator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		06B876280C4882997DC07DD4B3C00EFE /* Pods-ScrollCoordinator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollCoordinator_Example-umbrella.h"; sourceTree = "<group>"; };
+		0E2D3E584FB81D8A5622D1A6B1F95E30 /* Pods-ScrollCoordinator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollCoordinator_Tests-dummy.m"; sourceTree = "<group>"; };
+		1725C422B69005B971DD58440C90D05C /* ScrollCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollCoordinator.swift; sourceTree = "<group>"; };
+		17988D8D14BD819DFF3145A7008168EA /* Pods_ScrollCoordinator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollCoordinator_Example.framework; path = "Pods-ScrollCoordinator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A31950306CE592377A47940AEFAAB11 /* Pods-ScrollCoordinator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollCoordinator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		29332ED7FF77F74BCBCFBE75016E0AD3 /* Pods-ScrollCoordinator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollCoordinator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29C432D378E5E27B066106B31D7AC75B /* Pods-ScrollCoordinator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollCoordinator_Example-Info.plist"; sourceTree = "<group>"; };
+		2B4C2A297EDF7676B33370DE706201B9 /* Pods-ScrollCoordinator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollCoordinator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BAF38A2A89C23FB67707BCDC348F93E /* Pods-ScrollCoordinator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScrollCoordinator_Tests.modulemap"; sourceTree = "<group>"; };
+		2D1E0EB9AE58347CCC392EF0F297D77E /* ScrollCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScrollCoordinator-Info.plist"; sourceTree = "<group>"; };
+		311C7FE6ABCA5DA749024EAA0E72EAC4 /* ScrollCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollCoordinator.modulemap; sourceTree = "<group>"; };
+		3B781A97CBD8CB12C947FCE1E1D734DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3CCC9FC64E25BF128353A8F2893B9D3A /* ScrollCoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollCoordinator-prefix.pch"; sourceTree = "<group>"; };
+		424AD1638A4133DAF07D58030255AB62 /* ScrollCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollCoordinator.framework; path = ScrollCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		426862557EC88BDE337DFE44FCEF12F7 /* Pods-ScrollCoordinator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollCoordinator_Example-dummy.m"; sourceTree = "<group>"; };
+		5904E7FA24B3C43ACD68C4D22632F4BC /* Pods-ScrollCoordinator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollCoordinator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		591AA5622694491CC6304A68283F285B /* AnchorBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnchorBehaviour.swift; sourceTree = "<group>"; };
+		5DC7D9335A6C4AFF27C4D31C71F5EA55 /* Pods-ScrollCoordinator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollCoordinator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74F0854067603B6E10109BE548D2199A /* Pods-ScrollCoordinator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollCoordinator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		809349F49A9D932A85FF1721A5A4AF52 /* ScrollCoordinatorManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollCoordinatorManager.swift; sourceTree = "<group>"; };
+		80E6C3B07C4641B88198B0A1545707FD /* SnapBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapBehaviour.swift; sourceTree = "<group>"; };
+		8695F381322A7F91BE3DF3DD05277AE6 /* ScrollTranslationInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollTranslationInformation.swift; sourceTree = "<group>"; };
+		89E23924E49542C20E3F94B9705323A5 /* Pods-ScrollCoordinator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollCoordinator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AAC088396B17C800B6EB023CD8DA9A2 /* Pods-ScrollCoordinator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollCoordinator_Tests-Info.plist"; sourceTree = "<group>"; };
+		8C324EA498EB4A631AF3C30AC80A6821 /* ScrollCoordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollCoordinator.release.xcconfig; sourceTree = "<group>"; };
+		950BBF87C0D9AF2A537D62AA9E46D01B /* Pods-ScrollCoordinator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScrollCoordinator_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A29E644A56754DA578A0787867A0BC2F /* PanGestureInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PanGestureInformation.swift; sourceTree = "<group>"; };
+		A577AC7B671FE74DA6028826630B8D93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A5CB0AE7E1FB7B76CF414CCE5496A77E /* ScrollCoordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollCoordinator.debug.xcconfig; sourceTree = "<group>"; };
+		B2033AC5F0000BCEF30F99673EF9268C /* Pods-ScrollCoordinator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollCoordinator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BAACED8A0EF221346DA60DD0379AD44C /* ScrollCoordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ScrollCoordinator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3EBB1CE82F4FF9642E636F4CF9E4671 /* ScrollCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollCoordinator-dummy.m"; sourceTree = "<group>"; };
+		C6DF2A0CBCCCF5404185905EC8FFDC5C /* Behaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Behaviour.swift; sourceTree = "<group>"; };
+		DAE3A8C5FA0E32494881C850D6813C94 /* PanGestureHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PanGestureHandler.swift; sourceTree = "<group>"; };
+		DC1F20027E6A267619C263815287E539 /* Pods-ScrollCoordinator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollCoordinator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E8F4324D8D2AE3C3631B267DEB7F186D /* Pods_ScrollCoordinator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollCoordinator_Tests.framework; path = "Pods-ScrollCoordinator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEB04F98460FB38B7C0FFA2549A9589 /* ScrollCoordinatorUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollCoordinatorUtils.swift; sourceTree = "<group>"; };
+		EF6D438923ABE048A867058DCD2C888A /* NavbarSnapBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavbarSnapBehaviour.swift; sourceTree = "<group>"; };
+		F51D1B63880E6D2FEDA3205FD6665813 /* ScrollCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollCoordinator-umbrella.h"; sourceTree = "<group>"; };
+		F60E1BA67ECD7C48B03E49C3E03F670E /* PanGestureHandlerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PanGestureHandlerDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E39754A2626F65633DE121F7BFF8F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C94AF057BCCCD6C1B14033AD2273ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD141B08F1D70ED30E160506D54EECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F838B1ABC72CEBE18CAEB499B7B16A02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79088ACC0FB18D410150C39EFD1D988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A5FD54CB06B496140299D84D658F4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B524D2373C8EE553F954C625C44604 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37F42CE53CF7D73F554F4A64007F9066 /* Pods-ScrollCoordinator_Example */,
+				FC8433ED2B7FAD57D6D2D503D810B301 /* Pods-ScrollCoordinator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		357A2C584A31593E0754E04A4DE6BAD6 /* GestureHandler */ = {
+			isa = PBXGroup;
+			children = (
+				DAE3A8C5FA0E32494881C850D6813C94 /* PanGestureHandler.swift */,
+				F60E1BA67ECD7C48B03E49C3E03F670E /* PanGestureHandlerDelegate.swift */,
+				A29E644A56754DA578A0787867A0BC2F /* PanGestureInformation.swift */,
+				8695F381322A7F91BE3DF3DD05277AE6 /* ScrollTranslationInformation.swift */,
+			);
+			name = GestureHandler;
+			path = ScrollCoordinator/Sources/GestureHandler;
+			sourceTree = "<group>";
+		};
+		37F42CE53CF7D73F554F4A64007F9066 /* Pods-ScrollCoordinator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				950BBF87C0D9AF2A537D62AA9E46D01B /* Pods-ScrollCoordinator_Example.modulemap */,
+				5904E7FA24B3C43ACD68C4D22632F4BC /* Pods-ScrollCoordinator_Example-acknowledgements.markdown */,
+				1A31950306CE592377A47940AEFAAB11 /* Pods-ScrollCoordinator_Example-acknowledgements.plist */,
+				426862557EC88BDE337DFE44FCEF12F7 /* Pods-ScrollCoordinator_Example-dummy.m */,
+				74F0854067603B6E10109BE548D2199A /* Pods-ScrollCoordinator_Example-frameworks.sh */,
+				29C432D378E5E27B066106B31D7AC75B /* Pods-ScrollCoordinator_Example-Info.plist */,
+				06B876280C4882997DC07DD4B3C00EFE /* Pods-ScrollCoordinator_Example-umbrella.h */,
+				5DC7D9335A6C4AFF27C4D31C71F5EA55 /* Pods-ScrollCoordinator_Example.debug.xcconfig */,
+				B2033AC5F0000BCEF30F99673EF9268C /* Pods-ScrollCoordinator_Example.release.xcconfig */,
+			);
+			name = "Pods-ScrollCoordinator_Example";
+			path = "Target Support Files/Pods-ScrollCoordinator_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61228DB3F71A7A32F81EDDAEEA5C3F25 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1725C422B69005B971DD58440C90D05C /* ScrollCoordinator.swift */,
+				809349F49A9D932A85FF1721A5A4AF52 /* ScrollCoordinatorManager.swift */,
+				EEEB04F98460FB38B7C0FFA2549A9589 /* ScrollCoordinatorUtils.swift */,
+			);
+			name = Coordinator;
+			path = ScrollCoordinator/Sources/Coordinator;
+			sourceTree = "<group>";
+		};
+		64542DDEF94549B337CD915B1A3D85D7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A18FF2673398FC75E97C5B8FD253A50F /* ScrollCoordinator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		662934C198DC16EE2811C34A48D09A21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17988D8D14BD819DFF3145A7008168EA /* Pods_ScrollCoordinator_Example.framework */,
+				E8F4324D8D2AE3C3631B267DEB7F186D /* Pods_ScrollCoordinator_Tests.framework */,
+				424AD1638A4133DAF07D58030255AB62 /* ScrollCoordinator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73F076310D9317F1F57F6C9695DBBA95 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3B781A97CBD8CB12C947FCE1E1D734DF /* LICENSE */,
+				A577AC7B671FE74DA6028826630B8D93 /* README.md */,
+				BAACED8A0EF221346DA60DD0379AD44C /* ScrollCoordinator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		840402F8D89FEA451C39FB50DB1BEAC1 /* Behaviour */ = {
+			isa = PBXGroup;
+			children = (
+				591AA5622694491CC6304A68283F285B /* AnchorBehaviour.swift */,
+				C6DF2A0CBCCCF5404185905EC8FFDC5C /* Behaviour.swift */,
+				EF6D438923ABE048A867058DCD2C888A /* NavbarSnapBehaviour.swift */,
+				80E6C3B07C4641B88198B0A1545707FD /* SnapBehaviour.swift */,
+			);
+			name = Behaviour;
+			path = ScrollCoordinator/Sources/Behaviour;
+			sourceTree = "<group>";
+		};
+		A18FF2673398FC75E97C5B8FD253A50F /* ScrollCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				840402F8D89FEA451C39FB50DB1BEAC1 /* Behaviour */,
+				61228DB3F71A7A32F81EDDAEEA5C3F25 /* Coordinator */,
+				357A2C584A31593E0754E04A4DE6BAD6 /* GestureHandler */,
+				73F076310D9317F1F57F6C9695DBBA95 /* Pod */,
+				E5AAB887468C7148109DD6D893315107 /* Support Files */,
+			);
+			name = ScrollCoordinator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				64542DDEF94549B337CD915B1A3D85D7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				662934C198DC16EE2811C34A48D09A21 /* Products */,
+				11B524D2373C8EE553F954C625C44604 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5AAB887468C7148109DD6D893315107 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				311C7FE6ABCA5DA749024EAA0E72EAC4 /* ScrollCoordinator.modulemap */,
+				C3EBB1CE82F4FF9642E636F4CF9E4671 /* ScrollCoordinator-dummy.m */,
+				2D1E0EB9AE58347CCC392EF0F297D77E /* ScrollCoordinator-Info.plist */,
+				3CCC9FC64E25BF128353A8F2893B9D3A /* ScrollCoordinator-prefix.pch */,
+				F51D1B63880E6D2FEDA3205FD6665813 /* ScrollCoordinator-umbrella.h */,
+				A5CB0AE7E1FB7B76CF414CCE5496A77E /* ScrollCoordinator.debug.xcconfig */,
+				8C324EA498EB4A631AF3C30AC80A6821 /* ScrollCoordinator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ScrollCoordinator";
+			sourceTree = "<group>";
+		};
+		FC8433ED2B7FAD57D6D2D503D810B301 /* Pods-ScrollCoordinator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2BAF38A2A89C23FB67707BCDC348F93E /* Pods-ScrollCoordinator_Tests.modulemap */,
+				29332ED7FF77F74BCBCFBE75016E0AD3 /* Pods-ScrollCoordinator_Tests-acknowledgements.markdown */,
+				89E23924E49542C20E3F94B9705323A5 /* Pods-ScrollCoordinator_Tests-acknowledgements.plist */,
+				0E2D3E584FB81D8A5622D1A6B1F95E30 /* Pods-ScrollCoordinator_Tests-dummy.m */,
+				8AAC088396B17C800B6EB023CD8DA9A2 /* Pods-ScrollCoordinator_Tests-Info.plist */,
+				DC1F20027E6A267619C263815287E539 /* Pods-ScrollCoordinator_Tests-umbrella.h */,
+				2B4C2A297EDF7676B33370DE706201B9 /* Pods-ScrollCoordinator_Tests.debug.xcconfig */,
+				03CE346EE27BE5DCE5B8580AF1FC8EE6 /* Pods-ScrollCoordinator_Tests.release.xcconfig */,
+			);
+			name = "Pods-ScrollCoordinator_Tests";
+			path = "Target Support Files/Pods-ScrollCoordinator_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		061FBD865742BFF1DC34BC152E6974F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DACA9C7B90C87894D76EB1B9FF5C00 /* ScrollCoordinator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B50E33D69DB0D6A54CE932E48731CE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D0FE06587F8FC127828DF609CCB96 /* Pods-ScrollCoordinator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46204760CA1032B0C72AAB1969892A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CE0F9539B3F516F8B4E537E467E528 /* Pods-ScrollCoordinator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5730EB75C915398A0ED5451B8C3FE5FB /* Pods-ScrollCoordinator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700F9940F930BD1EE8ABD4A84B042DE8 /* Build configuration list for PBXNativeTarget "Pods-ScrollCoordinator_Example" */;
+			buildPhases = (
+				D46204760CA1032B0C72AAB1969892A9 /* Headers */,
+				5E749E661256D488EA9033892152BF29 /* Sources */,
+				4FD141B08F1D70ED30E160506D54EECD /* Frameworks */,
+				0555C35D68A51979FEC1F63E1C10135D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				376F1E69EC8B8D9CCB6A6B4CBCAA7C59 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScrollCoordinator_Example";
+			productName = "Pods-ScrollCoordinator_Example";
+			productReference = 17988D8D14BD819DFF3145A7008168EA /* Pods_ScrollCoordinator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7422E8150FF32C7649D2235F10E794E6 /* ScrollCoordinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9403F583B75DE63254597AB964A36A1F /* Build configuration list for PBXNativeTarget "ScrollCoordinator" */;
+			buildPhases = (
+				061FBD865742BFF1DC34BC152E6974F5 /* Headers */,
+				89A75350EF5D3E00527A5D460A62EE56 /* Sources */,
+				B79088ACC0FB18D410150C39EFD1D988 /* Frameworks */,
+				BD77F8987BEAA79FC75BC7AB0385C3B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollCoordinator;
+			productName = ScrollCoordinator;
+			productReference = 424AD1638A4133DAF07D58030255AB62 /* ScrollCoordinator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3C3C1F9727E8748A815AFFB7419C8F1 /* Pods-ScrollCoordinator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B24DDC398AA2C0F9B859075249D4663 /* Build configuration list for PBXNativeTarget "Pods-ScrollCoordinator_Tests" */;
+			buildPhases = (
+				3B50E33D69DB0D6A54CE932E48731CE7 /* Headers */,
+				D54B6732EA26722B2D0AC76F010FA423 /* Sources */,
+				1E39754A2626F65633DE121F7BFF8F0E /* Frameworks */,
+				88048B5833CF921CF3E1F6AD1E689897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0061163A185F5C7C711D6F75F535BB32 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScrollCoordinator_Tests";
+			productName = "Pods-ScrollCoordinator_Tests";
+			productReference = E8F4324D8D2AE3C3631B267DEB7F186D /* Pods_ScrollCoordinator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 662934C198DC16EE2811C34A48D09A21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5730EB75C915398A0ED5451B8C3FE5FB /* Pods-ScrollCoordinator_Example */,
+				E3C3C1F9727E8748A815AFFB7419C8F1 /* Pods-ScrollCoordinator_Tests */,
+				7422E8150FF32C7649D2235F10E794E6 /* ScrollCoordinator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0555C35D68A51979FEC1F63E1C10135D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88048B5833CF921CF3E1F6AD1E689897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD77F8987BEAA79FC75BC7AB0385C3B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E749E661256D488EA9033892152BF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8426FA0AF7D7EE2EEB04CDCE518B60 /* Pods-ScrollCoordinator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A75350EF5D3E00527A5D460A62EE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624AA7B79C969CE43451DC2837F04B99 /* AnchorBehaviour.swift in Sources */,
+				F76587EBD1BA6D0205D0F93EF8644BB1 /* Behaviour.swift in Sources */,
+				0BAA68E8FA65ED93C7BBACE3794444D2 /* NavbarSnapBehaviour.swift in Sources */,
+				F6C06EA77CCA2F97A8AFB9BD44704282 /* PanGestureHandler.swift in Sources */,
+				2357002D40CD7CA13D728678FF053F42 /* PanGestureHandlerDelegate.swift in Sources */,
+				8E64D4E5CD09BD5C40D4F3ECCD7AE713 /* PanGestureInformation.swift in Sources */,
+				0A45D23380345FCD155AF4739106DA79 /* ScrollCoordinator-dummy.m in Sources */,
+				A8FA75A77417879B5FFD061E5C22CEA7 /* ScrollCoordinator.swift in Sources */,
+				55D833587D0B70A653DB4699C0A49972 /* ScrollCoordinatorManager.swift in Sources */,
+				DA670A2FB37331B5607B5C4AF441CDCE /* ScrollCoordinatorUtils.swift in Sources */,
+				F46057D53CE6636CBD8DA34B44D46D71 /* ScrollTranslationInformation.swift in Sources */,
+				6E4458D4DB536F0863F9EFE8C38E9BA9 /* SnapBehaviour.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54B6732EA26722B2D0AC76F010FA423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6233D900DB4EAC86E5A8E33E1E333B2 /* Pods-ScrollCoordinator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0061163A185F5C7C711D6F75F535BB32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ScrollCoordinator_Example";
+			target = 5730EB75C915398A0ED5451B8C3FE5FB /* Pods-ScrollCoordinator_Example */;
+			targetProxy = 4ACB93846C5B27B239C74A9AD9C83A9E /* PBXContainerItemProxy */;
+		};
+		376F1E69EC8B8D9CCB6A6B4CBCAA7C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScrollCoordinator;
+			target = 7422E8150FF32C7649D2235F10E794E6 /* ScrollCoordinator */;
+			targetProxy = DF20D5080EE7197E1D9D5A14CE42EE52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B07D5918D3F0A033D4656E472A9A15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C324EA498EB4A631AF3C30AC80A6821 /* ScrollCoordinator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollCoordinator/ScrollCoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollCoordinator/ScrollCoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollCoordinator/ScrollCoordinator.modulemap";
+				PRODUCT_MODULE_NAME = ScrollCoordinator;
+				PRODUCT_NAME = ScrollCoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		364C7549D97C8837AA07E6739FB42DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B4C2A297EDF7676B33370DE706201B9 /* Pods-ScrollCoordinator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollCoordinator_Tests/Pods-ScrollCoordinator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollCoordinator_Tests/Pods-ScrollCoordinator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		99804670A6E66EACFE758C7F15E7F1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CB0AE7E1FB7B76CF414CCE5496A77E /* ScrollCoordinator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollCoordinator/ScrollCoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollCoordinator/ScrollCoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollCoordinator/ScrollCoordinator.modulemap";
+				PRODUCT_MODULE_NAME = ScrollCoordinator;
+				PRODUCT_NAME = ScrollCoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AFDB09BFC706934C85F065957A28102D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CE346EE27BE5DCE5B8580AF1FC8EE6 /* Pods-ScrollCoordinator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollCoordinator_Tests/Pods-ScrollCoordinator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollCoordinator_Tests/Pods-ScrollCoordinator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3DDCDE84FF591B85AB66832754B0B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2033AC5F0000BCEF30F99673EF9268C /* Pods-ScrollCoordinator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollCoordinator_Example/Pods-ScrollCoordinator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollCoordinator_Example/Pods-ScrollCoordinator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7292D7A9EE3038F88F61BE083814259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC7D9335A6C4AFF27C4D31C71F5EA55 /* Pods-ScrollCoordinator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollCoordinator_Example/Pods-ScrollCoordinator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollCoordinator_Example/Pods-ScrollCoordinator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B24DDC398AA2C0F9B859075249D4663 /* Build configuration list for PBXNativeTarget "Pods-ScrollCoordinator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364C7549D97C8837AA07E6739FB42DF8 /* Debug */,
+				AFDB09BFC706934C85F065957A28102D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700F9940F930BD1EE8ABD4A84B042DE8 /* Build configuration list for PBXNativeTarget "Pods-ScrollCoordinator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7292D7A9EE3038F88F61BE083814259 /* Debug */,
+				D3DDCDE84FF591B85AB66832754B0B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9403F583B75DE63254597AB964A36A1F /* Build configuration list for PBXNativeTarget "ScrollCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99804670A6E66EACFE758C7F15E7F1DC /* Debug */,
+				0B07D5918D3F0A033D4656E472A9A15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
