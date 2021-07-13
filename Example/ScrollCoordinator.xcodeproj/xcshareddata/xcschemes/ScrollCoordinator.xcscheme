@@ -17,7 +17,7 @@
                BlueprintIdentifier = "7422E8150FF32C7649D2235F10E794E6"
                BuildableName = "ScrollCoordinator.framework"
                BlueprintName = "ScrollCoordinator"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
